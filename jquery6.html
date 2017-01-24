@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test 6</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script>
+		function appendPrepend(){
+			var teks1 = "<p>Teks</p>";
+			var teks2 = $("<p></p>").text("teks");
+			var teks3 = document.createElement("p");
+			teks3.innerHTML = "teks3";
+			$("body").append(teks1, teks2, teks3);
+		}
+	</script>
+</head>
+<body>
+<button onclick="appendPrepend()">Hit meh</button>
+
+</body>
+</html>

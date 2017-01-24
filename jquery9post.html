@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test 9</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$("button").click(function() {
+				$.post("https://jsonplaceholder.typicode.com/posts", 
+					{
+						title: "hello",
+						body: "world"
+					}, 
+					function(data, status){
+					$("p").text(status + " ");
+					console.log(data);
+				});
+			});
+		});
+	</script>
+</head>
+<body>
+<div id="div1"></div>
+<p></p>
+<button>SHOW</button>
+</body>
+</html>

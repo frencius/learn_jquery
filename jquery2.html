@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test 2</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("button").click(function(){
+				$("p").hide();
+			});
+		});
+		$(document).ready(function(){
+			$("button.hide").click(function(){
+				$("p.hide").hide();
+			});
+		});
+	</script>
+</head>
+<body>
+
+<p>This is P</p>
+<p class="hide">This is P will be hide</p>
+
+<button>Clik me to hide P</button>
+<button class="hide">Clik me to hide P hide</button>
+
+
+</body>
+</html>
