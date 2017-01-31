@@ -1,0 +1,36 @@
+<%- contentFor('content') %> 
+<div class="container text-center">    
+  <h3><%= datatables %></h3><br>
+ <table id="table_id" class="display">
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>user id</th>
+            <th>Title</th>
+            <th>Body</th>
+        </tr>
+    </thead>
+</table>
+</div><br>
+
+<%- contentFor('addcss') %>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.css">
+
+<%- contentFor('addjs') %>
+<script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.js"></script>
+<script>
+    $(document).ready(function(){
+        $('#table_id').DataTable({
+          ajax: {
+            url: 'http://jsonplaceholder.typicode.com/posts',
+            dataSrc: ''
+          },
+            columns: [
+                    { data: 'userId' },
+                    { data: 'id' },
+                    { data: 'title' },
+                    { data: 'body' }
+                ]
+        });
+    });
+</script>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<% include ../partials/head %>
+<% if (typeof addcss != 'undefined') { %>
+  <%-addcss%>
+<% } %>
+</head>
+<body>
+
+<% include ../partials/header %>
+
+<%-content%>
+
+
+<footer class="container-fluid text-center">
+  <% include ../partials/footer %>
+</footer>
+
+</body>
+<% if (typeof addjs != 'undefined') { %>
+  <%-addjs%>
+<% } %>
+
+</html>
+  

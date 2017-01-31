@@ -1,0 +1,36 @@
+<%- contentFor('content') %> 
+<div class="container text-center">    
+  <h3><%= ejs %></h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <p>Current Project</p>
+    </div>
+    <div class="col-sm-4"> 
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <p>Project 2</p>    
+    </div>
+    <div class="col-sm-4">
+      <div class="well">
+       <p id="p1"></p>
+      </div>
+      <div class="well">
+       <p id="p2"></p>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+
+<%- contentFor('addjs') %> 
+<script>
+    $(document).ready(function(){
+    	$.ajax({
+    		url: "http://jsonplaceholder.typicode.com/posts",
+    		success: function(result){
+        		$("#p1").html(result[0].title);
+        		$("#p2").html(result[0].body);
+    		}
+    	});
+    });
+</script>

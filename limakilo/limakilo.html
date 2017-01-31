@@ -1,0 +1,2003 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+<link rel="icon" type="image/png" href="/images/limakilo.png">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta http-equiv="Cache-Control" content="max-age=22400">
+
+<title>Limakilo</title>
+
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+<meta name="viewport" content="width=device-width" />
+
+<!-- Page Description and Author -->
+<meta name="description" content="social enterprise that partners with small farmers to shorten food supply chain #yukbelanjakepetani">
+<meta name="keywords" content="limakilo, komoditi, sembako, bawang merah, sayur organik, petani, brebes, bandung, yogyakarta">
+<meta name="author" content="limakilo">
+
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@limakilo_id">
+<meta name="twitter:title" content="Limakilo">
+<meta name="twitter:description" content="social enterprise that partners with small farmers to shorten food supply chain #yukbelanjakepetani">
+<meta name="twitter:creator" content="@limakilo_id">
+<meta name="twitter:image" content="http://limakilo.id/images/limakilo_twitter.png">
+
+<!-- Open Graph data -->
+<meta property="og:title" content="Limakilo" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://limakilo.id/" />
+<meta property="og:image" content="http://limakilo.id/images/limakilo_facebook.png" />
+<meta property="og:description" content="social enterprise that partners with small farmers to shorten food supply chain #yukbelanjakepetani" />
+<meta property="og:site_name" content="Limakilo" />
+<meta property="fb:admins" content="1355672873" />
+<meta property="fb:app_id" content="135514710123752" />
+
+
+<!-- CSS -->
+<link href="/vendor/bootstrap3/css/bootstrap.css" rel="stylesheet" />
+<link href="/vendor/chosen/chosen.min.css" rel="stylesheet" />
+<link href="/css/app/ct-paper.css" rel="stylesheet" />
+<link href="/css/app/themify-icons.css" rel="stylesheet">
+<link href="/css/app/menu.css" rel="stylesheet" />
+<link href="/css/app/custom.css" rel="stylesheet" />
+<link href="/css/app/limakilo.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css"/>
+
+<!-- FJB Development -->
+<link href="/css/app/limakilo-development-fjb.css" rel="stylesheet" />
+
+<!-- Fonts and icons -->
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+<link href="/vendor/parsleyjs/parsley.css" rel="stylesheet" />
+
+
+
+<!-- ?? -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-21214418-15', 'auto');
+ga('send', 'pageview');
+
+</script>
+</head>
+
+<body>
+
+    <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '306232403051981',
+      xfbml      : true,
+      version    : 'v2.7'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+    
+    <nav class="navbar navbar-default" role="navigation-demo" id="demo-navbar">
+  <div class="container nav-header">
+    <div class="row">
+      <div class="col-md-12">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header navbar-left">
+          <a class="btn navbar-toggle btn-fill pull-left" id="nav-toggle-c" data-toggle="collapse" data-target="#navigation-example-2">
+            <i class="fa fa-bars"></i>
+          </a>
+          <a class="navbar-brand pull-left" href="/"><img id="Limakilo" alt="" src="/images/limakilo_logo.png" data-rjs="3"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="menu navbar-right" style="position: static">
+          <div class="navbar-collapse collapse navbar-left" id="navigation-example-2">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                
+<li class="header-account">
+	<table>
+		<tr>
+			<td rowspan="2">
+				<img src="/images/group-2.png" alt="User" data-rjs="3">
+			</td>
+			<td>
+				<a href="/login">Masuk</a><span>&nbsp;|&nbsp;</span>
+			</td>
+			<td>
+				<a href="/register">Daftar</a>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">Akunku</td>
+		</tr>
+	</table>
+</li>
+
+                
+              </li>
+            </ul>
+          </div>
+          <div class="cart navbar-left">
+            <a class="btn btn-cart btn-fill c-button" id="c-button--slide-right">
+              <i class="fa fa-shopping-cart"></i>
+              <div id="minim-popover" style="display:none">
+                <div class="popover__content clearfix">
+                  <span class="icon-popover pull-left"><i class="fa fa-shopping-cart"></i></span>
+                  <h5 class="pull-left"><b>Total <span id='popover-total-cart'><!-- disini --></span></b></h5>
+                </div>
+                <div class="popover__content inf__rest-paid">
+                  <span class="inf__minim"><b id="rest-paid">Rp. 200.000</b> lagi untuk minimum pembelian</span>
+                  <div class="progress">
+                    <div class="progress-bar" id="progress-paid" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                      <span class="sr-only">60% Complete</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <span class="badge bubble-badge">0</span>
+          </div>
+        </div>
+        <form class="navbar-form navbar-right" id="form-search" role="search" action="/search" method="GET">
+            <div class="form-group input-group ui-widget" id="search-box">
+              <input type="text" value="" name="keyword" class="form-control " id="search-text" placeholder="Cari Produk">
+              <!-- <select name="category" class="selectpicker" data-style="btn-default btn-category btn-simple btn-block" data-style="form-control" data-menu-style="dropdown-success">
+                <option disabled selected> Semua Kategori</option>
+                <option value="1">Non-Organik </option>
+                <option value="2">Organik</option>
+                <option value="3">Olahan</option>
+              </select> -->
+              <span class="input-group-addon" id="search-button"><i class="ti-search"></i></span>
+            </div>
+        </form>
+        <!-- /.navbar-collapse -->
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<nav class="navbar sub-menu">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <ul class="nav nav-tabs sub-nav">
+            <li role="presentation" class="active"><a href="/">Pasar Petani</a></li>
+            <li role="presentation"><a href="/fjb">Forum Jual Beli</a></li>
+            <!-- <li role="presentation"><a href="/microfunding">Microfunding</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+      <div class="wrapper">
+    <div class="row full-width">
+        <div class="col-lg-12 slider">
+            <div class="slide">
+                <img src="/images/slider/slider2.JPG" alt="Bawang Merah Brebes">
+                <div class="slide-content-area">
+                    <div class="slider-content">
+                        <h2>Dijual dan dikirim langsung dari petani</h2><br>
+                        <a href="#featured-product"><button class="btn btn-primary btn-lg btn-fill">Belanja Sekarang <i class="fa fa-chevron-right"></i></button></a>
+                    </div>
+                    <div class="slider-mask"></div>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="/images/slider/slider5.jpg" alt="Pemodalan Mikro Petani">
+                <div class="slide-content-area">
+                    <div class="slider-content">
+                        <h2>Sekarang anda bisa ikut berbisnis bersama petani mitra Limakilo</h2><br>
+                        <a href="/microfunding"><button class="btn btn-primary btn-lg btn-fill">Menjadi Mitra Petani <i class="fa fa-chevron-right"></i></button></a>
+                    </div>
+                    <div class="slider-mask"></div>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="/images/slider/slider4.jpg" alt="Tentang Limakilo">
+                <div class="slide-content-area">
+                    <div class="slider-content">
+                        <h2>Membawa teknologi, kami ingin maju bersama petani</h2><br>
+                        <a href="/about"><button class="btn btn-primary btn-lg btn-fill">Kenal Lebih Dekat <i class="fa fa-chevron-right"></i></button></a>
+                    </div>
+                    <div class="slider-mask"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="section">
+            <div class="container">
+                <div class="home-banner col-md-12">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12">
+                            <img src="/images/Onion_reseller.png" alt="" data-rjs="3" id="bawang">
+                        </div>
+                        <div class="col-lg-7 col-md-6 col-sm-8 col-xs-12">
+                            <h5>Jadi Teman Kilo saat ini juga<br>Dan dapatkan kesempatan belanja <strong>GRATIS</strong></h5>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            
+                            <a href="/login" class="btn btn-primary btn-fill">
+                            
+                                GABUNG MENJADI<br>TEMAN KILO
+                            </a>
+                        </div>
+                        <img src="/images/background-banner.png" data-rjs="3" id="back-banner">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Javara Products Section -->
+        
+        <!-- Featured Products Section -->
+        <div class="section">
+            <div class="container">
+                <h4>Produk Pilihan</h4>
+                <div class="row relative">
+                    <div class="featured-product products-slider">
+                        
+                        
+                        <div class="col-md-3 col-sm-6">
+                            <div class="card-image" id="card-image56" data-minVal="5">
+                                <div class="card-thumbnail">
+                                    <div class="counter"><span></span></div>
+                                    <div class="card-adder">
+                                        <button class="adder-icon adder-plus pull-right" onclick="changeCartQty(56, 'add', 5)">
+                                            <i class="fa fa-plus pull-left" ></i>Tambah
+                                        </button>
+                                        <button class="adder-icon adder-minus pull-right" onclick="changeCartQty(56, 'substract', 5)">
+                                            <i class="fa fa-minus"></i>
+                                        </button>
+                                    </div>
+                                    <a href="/product/Bawang-Merah-Brebes-Curah-1-kg56">
+                                        <img src="http://s3-ap-southeast-1.amazonaws.com/limakilo-dev/product/1-2017/HJV30oiSx6146195163841.jpg" alt="Bawang Merah Brebes Curah (1 kg) - minimum 5 kg" class="img-rounded img-responsive"/>
+                                    </a>
+                                </div>
+                                <a href="/product/Bawang-Merah-Brebes-Curah-1-kg56">
+                                    <div class="details">
+                                        <div class="author">
+                                            <div class="text col-md-12">
+                                                <span class="name">Bawang Merah Brebes Curah (1 kg) - minimum 5 kg</span>
+                                                <div class="meta"><b>Rp <span class="price">28758</span>/Kg</b></div>
+                                                <div class="discount" style="display:none"><span>Rp <span class="price">30000</span></span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="farmer-bio col-md-12">
+                                        <img src="http://limakilo.id/images/farmers/1. Pak Samsul.png" alt="" class="img-circle img-no-padding img-responsive">
+                                        <p>Hasil panen dari Samsul</p>
+                                        <br class="clear">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-6">
+                            <div class="card-image" id="card-image64" data-minVal="5">
+                                <div class="card-thumbnail">
+                                    <div class="counter"><span></span></div>
+                                    <div class="card-adder">
+                                        <button class="adder-icon adder-plus pull-right" onclick="changeCartQty(64, 'add', 5)">
+                                            <i class="fa fa-plus pull-left" ></i>Tambah
+                                        </button>
+                                        <button class="adder-icon adder-minus pull-right" onclick="changeCartQty(64, 'substract', 5)">
+                                            <i class="fa fa-minus"></i>
+                                        </button>
+                                    </div>
+                                    <a href="/product/cabai-hijau-besar-1-kg-minimum-5-kg">
+                                        <img src="http://s3-ap-southeast-1.amazonaws.com/limakilo-dev/product/1-2017/ryQgYssSx1192444163841.png" alt="Cabai Hijau Besar (1 kg) - minimum 5 kg" class="img-rounded img-responsive"/>
+                                    </a>
+                                </div>
+                                <a href="/product/cabai-hijau-besar-1-kg-minimum-5-kg">
+                                    <div class="details">
+                                        <div class="author">
+                                            <div class="text col-md-12">
+                                                <span class="name">Cabai Hijau Besar (1 kg) - minimum 5 kg</span>
+                                                <div class="meta"><b>Rp <span class="price">22943</span>/Kg</b></div>
+                                                <div class="discount" style="display:none"><span>Rp <span class="price">30000</span></span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="farmer-bio col-md-12">
+                                        <img src="http://limakilo.id/images/limakilo.png" alt="" class="img-circle img-no-padding img-responsive">
+                                        <p>Hasil panen dari Farmer</p>
+                                        <br class="clear">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-6">
+                            <div class="card-image" id="card-image59" data-minVal="5">
+                                <div class="card-thumbnail">
+                                    <div class="counter"><span></span></div>
+                                    <div class="card-adder">
+                                        <button class="adder-icon adder-plus pull-right" onclick="changeCartQty(59, 'add', 5)">
+                                            <i class="fa fa-plus pull-left" ></i>Tambah
+                                        </button>
+                                        <button class="adder-icon adder-minus pull-right" onclick="changeCartQty(59, 'substract', 5)">
+                                            <i class="fa fa-minus"></i>
+                                        </button>
+                                    </div>
+                                    <a href="/product/gula-pasir-1-kg-minimum-5-kg">
+                                        <img src="http://s3-ap-southeast-1.amazonaws.com/limakilo-dev/product/1-2017/rkVQgsiHl1118812163841.jpg" alt="Gula Pasir (1 kg) - minimum 5 kg" class="img-rounded img-responsive"/>
+                                    </a>
+                                </div>
+                                <a href="/product/gula-pasir-1-kg-minimum-5-kg">
+                                    <div class="details">
+                                        <div class="author">
+                                            <div class="text col-md-12">
+                                                <span class="name">Gula Pasir (1 kg) - minimum 5 kg</span>
+                                                <div class="meta"><b>Rp <span class="price">12825</span>/Kg</b></div>
+                                                <div class="discount" style="display:none"><span>Rp <span class="price">30000</span></span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="farmer-bio col-md-12">
+                                        <img src="http://limakilo.id/images/limakilo.png" alt="" class="img-circle img-no-padding img-responsive">
+                                        <p>Hasil panen dari Farmer</p>
+                                        <br class="clear">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-6">
+                            <div class="card-image" id="card-image65" data-minVal="5">
+                                <div class="card-thumbnail">
+                                    <div class="counter"><span></span></div>
+                                    <div class="card-adder">
+                                        <button class="adder-icon adder-plus pull-right" onclick="changeCartQty(65, 'add', 5)">
+                                            <i class="fa fa-plus pull-left" ></i>Tambah
+                                        </button>
+                                        <button class="adder-icon adder-minus pull-right" onclick="changeCartQty(65, 'substract', 5)">
+                                            <i class="fa fa-minus"></i>
+                                        </button>
+                                    </div>
+                                    <a href="/product/cabai-hijau-keriting-1-kg-minimum-5-kg">
+                                        <img src="http://s3-ap-southeast-1.amazonaws.com/limakilo-dev/product/1-2017/BJLSRjsBg3126085163841.jpg" alt="Cabai Hijau Keriting (1 kg) - minimum 5 kg" class="img-rounded img-responsive"/>
+                                    </a>
+                                </div>
+                                <a href="/product/cabai-hijau-keriting-1-kg-minimum-5-kg">
+                                    <div class="details">
+                                        <div class="author">
+                                            <div class="text col-md-12">
+                                                <span class="name">Cabai Hijau Keriting (1 kg) - minimum 5 kg</span>
+                                                <div class="meta"><b>Rp <span class="price">40613</span>/Kg</b></div>
+                                                <div class="discount" style="display:none"><span>Rp <span class="price">30000</span></span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="farmer-bio col-md-12">
+                                        <img src="http://limakilo.id/images/limakilo.png" alt="" class="img-circle img-no-padding img-responsive">
+                                        <p>Hasil panen dari Farmer</p>
+                                        <br class="clear">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Latest Products Section -->
+        <div class="section">
+            <div class="container">
+                <h4>Produk Terbaru</h4>
+                
+                <div class="row relative">
+                    <div class="newest-product products-slider">
+                        
+                        <div class="col-md-3 col-sm-6" style="margin-bottom:20px;">
+                            <div class="card-image" id="card-image67" data-minVal="5">
+                                <div class="card-thumbnail">
+                                    <div class="counter"><span></span></div>
+                                    <div class="card-adder">
+                                        <button class="adder-icon adder-plus pull-right" onclick="changeCartQty(67, 'add', 5)">
+                                            <i class="fa fa-plus pull-left" ></i>Tambah
+                                        </button>
+                                        <button class="adder-icon adder-minus pull-right" onclick="changeCartQty(67, 'substract', 5)">
+                                            <i class="fa fa-minus"></i>
+                                        </button>
+                                    </div>
+                                    <a href="/product/tomat-1-kg-minimum-5-kg">
+                                        <img src="http://s3-ap-southeast-1.amazonaws.com/limakilo-dev/product/1-2017/SyjIHqeUg8256017393841.JPG" alt="Tomat (1 kg) - minimum 5 kg" class="img-rounded img-responsive"/>
+                                    </a>
+                                </div>
+                                <a href="/product/tomat-1-kg-minimum-5-kg">
+                                    <div class="details">
+                                        <div class="author">
+                                            <div class="text col-md-12">
+                                                <span class="name">Tomat (1 kg) - minimum 5 kg</span>
+                                                <div class="meta"><b>Rp <span class="price">6875</span>/Kg</b></div>
+                                                <div class="discount" style="display:none"><span>Rp <span class="price">30000</span></span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="farmer-bio col-md-12">
+                                        <img src="http://limakilo.id/images/limakilo.png" alt="" class="img-circle img-no-padding img-responsive"><p>Hasil panen dari Farmer</p>
+                                        <br class="clear">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-6" style="margin-bottom:20px;">
+                            <div class="card-image" id="card-image66" data-minVal="5">
+                                <div class="card-thumbnail">
+                                    <div class="counter"><span></span></div>
+                                    <div class="card-adder">
+                                        <button class="adder-icon adder-plus pull-right" onclick="changeCartQty(66, 'add', 5)">
+                                            <i class="fa fa-plus pull-left" ></i>Tambah
+                                        </button>
+                                        <button class="adder-icon adder-minus pull-right" onclick="changeCartQty(66, 'substract', 5)">
+                                            <i class="fa fa-minus"></i>
+                                        </button>
+                                    </div>
+                                    <a href="/product/cabe-merah-keriting-1-kg-minimum-5-kg">
+                                        <img src="http://s3-ap-southeast-1.amazonaws.com/limakilo-dev/product/1-2017/H1OY2ijrx6130635163841.jpg" alt="Cabe Merah Keriting (1 kg) - minimum 5 kg" class="img-rounded img-responsive"/>
+                                    </a>
+                                </div>
+                                <a href="/product/cabe-merah-keriting-1-kg-minimum-5-kg">
+                                    <div class="details">
+                                        <div class="author">
+                                            <div class="text col-md-12">
+                                                <span class="name">Cabe Merah Keriting (1 kg) - minimum 5 kg</span>
+                                                <div class="meta"><b>Rp <span class="price">52191</span>/Kg</b></div>
+                                                <div class="discount" style="display:none"><span>Rp <span class="price">30000</span></span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="farmer-bio col-md-12">
+                                        <img src="http://limakilo.id/images/limakilo.png" alt="" class="img-circle img-no-padding img-responsive"><p>Hasil panen dari Farmer</p>
+                                        <br class="clear">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-6" style="margin-bottom:20px;">
+                            <div class="card-image" id="card-image65" data-minVal="5">
+                                <div class="card-thumbnail">
+                                    <div class="counter"><span></span></div>
+                                    <div class="card-adder">
+                                        <button class="adder-icon adder-plus pull-right" onclick="changeCartQty(65, 'add', 5)">
+                                            <i class="fa fa-plus pull-left" ></i>Tambah
+                                        </button>
+                                        <button class="adder-icon adder-minus pull-right" onclick="changeCartQty(65, 'substract', 5)">
+                                            <i class="fa fa-minus"></i>
+                                        </button>
+                                    </div>
+                                    <a href="/product/cabai-hijau-keriting-1-kg-minimum-5-kg">
+                                        <img src="http://s3-ap-southeast-1.amazonaws.com/limakilo-dev/product/1-2017/BJLSRjsBg3126085163841.jpg" alt="Cabai Hijau Keriting (1 kg) - minimum 5 kg" class="img-rounded img-responsive"/>
+                                    </a>
+                                </div>
+                                <a href="/product/cabai-hijau-keriting-1-kg-minimum-5-kg">
+                                    <div class="details">
+                                        <div class="author">
+                                            <div class="text col-md-12">
+                                                <span class="name">Cabai Hijau Keriting (1 kg) - minimum 5 kg</span>
+                                                <div class="meta"><b>Rp <span class="price">40613</span>/Kg</b></div>
+                                                <div class="discount" style="display:none"><span>Rp <span class="price">30000</span></span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="farmer-bio col-md-12">
+                                        <img src="http://limakilo.id/images/limakilo.png" alt="" class="img-circle img-no-padding img-responsive"><p>Hasil panen dari Farmer</p>
+                                        <br class="clear">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-6" style="margin-bottom:20px;">
+                            <div class="card-image" id="card-image64" data-minVal="5">
+                                <div class="card-thumbnail">
+                                    <div class="counter"><span></span></div>
+                                    <div class="card-adder">
+                                        <button class="adder-icon adder-plus pull-right" onclick="changeCartQty(64, 'add', 5)">
+                                            <i class="fa fa-plus pull-left" ></i>Tambah
+                                        </button>
+                                        <button class="adder-icon adder-minus pull-right" onclick="changeCartQty(64, 'substract', 5)">
+                                            <i class="fa fa-minus"></i>
+                                        </button>
+                                    </div>
+                                    <a href="/product/cabai-hijau-besar-1-kg-minimum-5-kg">
+                                        <img src="http://s3-ap-southeast-1.amazonaws.com/limakilo-dev/product/1-2017/ryQgYssSx1192444163841.png" alt="Cabai Hijau Besar (1 kg) - minimum 5 kg" class="img-rounded img-responsive"/>
+                                    </a>
+                                </div>
+                                <a href="/product/cabai-hijau-besar-1-kg-minimum-5-kg">
+                                    <div class="details">
+                                        <div class="author">
+                                            <div class="text col-md-12">
+                                                <span class="name">Cabai Hijau Besar (1 kg) - minimum 5 kg</span>
+                                                <div class="meta"><b>Rp <span class="price">22943</span>/Kg</b></div>
+                                                <div class="discount" style="display:none"><span>Rp <span class="price">30000</span></span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="farmer-bio col-md-12">
+                                        <img src="http://limakilo.id/images/limakilo.png" alt="" class="img-circle img-no-padding img-responsive"><p>Hasil panen dari Farmer</p>
+                                        <br class="clear">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-6" style="margin-bottom:20px;">
+                            <div class="card-image" id="card-image63" data-minVal="5">
+                                <div class="card-thumbnail">
+                                    <div class="counter"><span></span></div>
+                                    <div class="card-adder">
+                                        <button class="adder-icon adder-plus pull-right" onclick="changeCartQty(63, 'add', 5)">
+                                            <i class="fa fa-plus pull-left" ></i>Tambah
+                                        </button>
+                                        <button class="adder-icon adder-minus pull-right" onclick="changeCartQty(63, 'substract', 5)">
+                                            <i class="fa fa-minus"></i>
+                                        </button>
+                                    </div>
+                                    <a href="/product/cabe-merah-besar-tw-1-kg-minimum-5-kg">
+                                        <img src="http://s3-ap-southeast-1.amazonaws.com/limakilo-dev/product/1-2017/S1Qr_jsSe9927624163841.jpg" alt="Cabe Merah Besar TW (1 kg) - minimum 5 kg" class="img-rounded img-responsive"/>
+                                    </a>
+                                </div>
+                                <a href="/product/cabe-merah-besar-tw-1-kg-minimum-5-kg">
+                                    <div class="details">
+                                        <div class="author">
+                                            <div class="text col-md-12">
+                                                <span class="name">Cabe Merah Besar TW (1 kg) - minimum 5 kg</span>
+                                                <div class="meta"><b>Rp <span class="price">37253</span>/Kg</b></div>
+                                                <div class="discount" style="display:none"><span>Rp <span class="price">30000</span></span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="farmer-bio col-md-12">
+                                        <img src="http://limakilo.id/images/limakilo.png" alt="" class="img-circle img-no-padding img-responsive"><p>Hasil panen dari Farmer</p>
+                                        <br class="clear">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-6" style="margin-bottom:20px;">
+                            <div class="card-image" id="card-image62" data-minVal="5">
+                                <div class="card-thumbnail">
+                                    <div class="counter"><span></span></div>
+                                    <div class="card-adder">
+                                        <button class="adder-icon adder-plus pull-right" onclick="changeCartQty(62, 'add', 5)">
+                                            <i class="fa fa-plus pull-left" ></i>Tambah
+                                        </button>
+                                        <button class="adder-icon adder-minus pull-right" onclick="changeCartQty(62, 'substract', 5)">
+                                            <i class="fa fa-minus"></i>
+                                        </button>
+                                    </div>
+                                    <a href="/product/kentang-1-kg-minimum-5-kg">
+                                        <img src="http://s3-ap-southeast-1.amazonaws.com/limakilo-dev/product/1-2017/B1P-DiiSg2550593163841.jpg" alt="kentang (1 kg) - minimum 5 kg" class="img-rounded img-responsive"/>
+                                    </a>
+                                </div>
+                                <a href="/product/kentang-1-kg-minimum-5-kg">
+                                    <div class="details">
+                                        <div class="author">
+                                            <div class="text col-md-12">
+                                                <span class="name">kentang (1 kg) - minimum 5 kg</span>
+                                                <div class="meta"><b>Rp <span class="price">14495</span>/Kg</b></div>
+                                                <div class="discount" style="display:none"><span>Rp <span class="price">30000</span></span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="farmer-bio col-md-12">
+                                        <img src="http://limakilo.id/images/limakilo.png" alt="" class="img-circle img-no-padding img-responsive"><p>Hasil panen dari Farmer</p>
+                                        <br class="clear">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-6" style="margin-bottom:20px;">
+                            <div class="card-image" id="card-image59" data-minVal="5">
+                                <div class="card-thumbnail">
+                                    <div class="counter"><span></span></div>
+                                    <div class="card-adder">
+                                        <button class="adder-icon adder-plus pull-right" onclick="changeCartQty(59, 'add', 5)">
+                                            <i class="fa fa-plus pull-left" ></i>Tambah
+                                        </button>
+                                        <button class="adder-icon adder-minus pull-right" onclick="changeCartQty(59, 'substract', 5)">
+                                            <i class="fa fa-minus"></i>
+                                        </button>
+                                    </div>
+                                    <a href="/product/gula-pasir-1-kg-minimum-5-kg">
+                                        <img src="http://s3-ap-southeast-1.amazonaws.com/limakilo-dev/product/1-2017/rkVQgsiHl1118812163841.jpg" alt="Gula Pasir (1 kg) - minimum 5 kg" class="img-rounded img-responsive"/>
+                                    </a>
+                                </div>
+                                <a href="/product/gula-pasir-1-kg-minimum-5-kg">
+                                    <div class="details">
+                                        <div class="author">
+                                            <div class="text col-md-12">
+                                                <span class="name">Gula Pasir (1 kg) - minimum 5 kg</span>
+                                                <div class="meta"><b>Rp <span class="price">12825</span>/Kg</b></div>
+                                                <div class="discount" style="display:none"><span>Rp <span class="price">30000</span></span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="farmer-bio col-md-12">
+                                        <img src="http://limakilo.id/images/limakilo.png" alt="" class="img-circle img-no-padding img-responsive"><p>Hasil panen dari Farmer</p>
+                                        <br class="clear">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-6" style="margin-bottom:20px;">
+                            <div class="card-image" id="card-image58" data-minVal="5">
+                                <div class="card-thumbnail">
+                                    <div class="counter"><span></span></div>
+                                    <div class="card-adder">
+                                        <button class="adder-icon adder-plus pull-right" onclick="changeCartQty(58, 'add', 5)">
+                                            <i class="fa fa-plus pull-left" ></i>Tambah
+                                        </button>
+                                        <button class="adder-icon adder-minus pull-right" onclick="changeCartQty(58, 'substract', 5)">
+                                            <i class="fa fa-minus"></i>
+                                        </button>
+                                    </div>
+                                    <a href="/product/cabai-rawit-merah-1-kg-minimum-5-kg">
+                                        <img src="http://s3-ap-southeast-1.amazonaws.com/limakilo-dev/product/1-2017/HkHuHsiSx2998453163841.jpg" alt="Cabai Rawit Merah (1 kg) - minimum 5 kg" class="img-rounded img-responsive"/>
+                                    </a>
+                                </div>
+                                <a href="/product/cabai-rawit-merah-1-kg-minimum-5-kg">
+                                    <div class="details">
+                                        <div class="author">
+                                            <div class="text col-md-12">
+                                                <span class="name">Cabai Rawit Merah (1 kg) - minimum 5 kg</span>
+                                                <div class="meta"><b>Rp <span class="price">115146</span>/Kg</b></div>
+                                                <div class="discount" style="display:none"><span>Rp <span class="price">30000</span></span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="farmer-bio col-md-12">
+                                        <img src="http://limakilo.id/images/limakilo.png" alt="" class="img-circle img-no-padding img-responsive"><p>Hasil panen dari Farmer</p>
+                                        <br class="clear">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-6" style="margin-bottom:20px;">
+                            <div class="card-image" id="card-image57" data-minVal="5">
+                                <div class="card-thumbnail">
+                                    <div class="counter"><span></span></div>
+                                    <div class="card-adder">
+                                        <button class="adder-icon adder-plus pull-right" onclick="changeCartQty(57, 'add', 5)">
+                                            <i class="fa fa-plus pull-left" ></i>Tambah
+                                        </button>
+                                        <button class="adder-icon adder-minus pull-right" onclick="changeCartQty(57, 'substract', 5)">
+                                            <i class="fa fa-minus"></i>
+                                        </button>
+                                    </div>
+                                    <a href="/product/Bawang-Merah-Brebes-Super-1-kg57">
+                                        <img src="http://s3-ap-southeast-1.amazonaws.com/limakilo-dev/product/1-2017/SkDskojrg4362602163841.jpg" alt="Bawang Merah Brebes Super (1 kg) - minimum 5 kg" class="img-rounded img-responsive"/>
+                                    </a>
+                                </div>
+                                <a href="/product/Bawang-Merah-Brebes-Super-1-kg57">
+                                    <div class="details">
+                                        <div class="author">
+                                            <div class="text col-md-12">
+                                                <span class="name">Bawang Merah Brebes Super (1 kg) - minimum 5 kg</span>
+                                                <div class="meta"><b>Rp <span class="price">32480</span>/Kg</b></div>
+                                                <div class="discount" style="display:none"><span>Rp <span class="price">30000</span></span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="farmer-bio col-md-12">
+                                        <img src="http://limakilo.id/images/farmers/1. Pak Samsul.png" alt="" class="img-circle img-no-padding img-responsive"><p>Hasil panen dari Samsul</p>
+                                        <br class="clear">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-6" style="margin-bottom:20px;">
+                            <div class="card-image" id="card-image56" data-minVal="5">
+                                <div class="card-thumbnail">
+                                    <div class="counter"><span></span></div>
+                                    <div class="card-adder">
+                                        <button class="adder-icon adder-plus pull-right" onclick="changeCartQty(56, 'add', 5)">
+                                            <i class="fa fa-plus pull-left" ></i>Tambah
+                                        </button>
+                                        <button class="adder-icon adder-minus pull-right" onclick="changeCartQty(56, 'substract', 5)">
+                                            <i class="fa fa-minus"></i>
+                                        </button>
+                                    </div>
+                                    <a href="/product/Bawang-Merah-Brebes-Curah-1-kg56">
+                                        <img src="http://s3-ap-southeast-1.amazonaws.com/limakilo-dev/product/1-2017/HJV30oiSx6146195163841.jpg" alt="Bawang Merah Brebes Curah (1 kg) - minimum 5 kg" class="img-rounded img-responsive"/>
+                                    </a>
+                                </div>
+                                <a href="/product/Bawang-Merah-Brebes-Curah-1-kg56">
+                                    <div class="details">
+                                        <div class="author">
+                                            <div class="text col-md-12">
+                                                <span class="name">Bawang Merah Brebes Curah (1 kg) - minimum 5 kg</span>
+                                                <div class="meta"><b>Rp <span class="price">28758</span>/Kg</b></div>
+                                                <div class="discount" style="display:none"><span>Rp <span class="price">30000</span></span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="farmer-bio col-md-12">
+                                        <img src="http://limakilo.id/images/farmers/1. Pak Samsul.png" alt="" class="img-circle img-no-padding img-responsive"><p>Hasil panen dari Samsul</p>
+                                        <br class="clear">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="blurred-product blurred-left"></div>
+                    <div class="blurred-product blurred-right"></div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="section text-center landing-section">
+        <div class="container">
+            <h3>Perjalanan sayurmu di Limakilo</h3>
+            <div class="col-md-3">
+                <div class="info">
+                    <div class="icon icon-primary">
+                        <img class="journey-icon" src="/images/icons/ic_farmer.png">
+                    </div>
+                    <div class="description">
+                        <h4> Dipanen oleh petani </h4>
+                        <p>Sayurmu dipanen langsung oleh petani tentunya lebih segar dan sekarang petani punya pilihan lain selain tengkulak, dijual langsung ke kamu!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="info">
+                    <div class="icon icon-primary">
+                        <img class="journey-icon" src="/images/icons/ic_tag.png">
+                    </div>
+                    <div class="description">
+                        <h4> Standar kualitas terjamin </h4>
+                        <p>Limakilo memberikan pelatihan standar pengemasan dan kualitas kepada mitra kelompok tani kami. Ya, pendapatan petani meningkat!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="info">
+                    <div class="icon icon-primary">
+                        <img class="journey-icon" src="/images/icons/ic_truck.png">
+                    </div>
+                    <div class="description">
+                        <h4> Pengiriman oleh petani </h4>
+                        <p>Sayurmu dikirim oleh petani langsung sampai ke Jakarta lho! ini rahasia kenapa kami lebih murah, bhay rantai pasok yang panjang!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="info">
+                    <div class="icon icon-primary">
+                        <img class="journey-icon" src="/images/icons/ic_home.png">
+                    </div>
+                    <div class="description">
+                        <h4> Diantar sampai ke rumah </h4>
+                        <p>Begitu sampai Jakarta dan kota besar lainnya tim delivery limakilo akan mengantarkan sayur langsung kerumah, praktis. 2016 jamannya belanja online!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FJB Section -->
+    <div class="section fjb">
+      <div class="container">
+        <h4>Forum Jual Beli</h4>
+        <div class="forum-posts">
+          <div class="row post-container"></div>
+          <div class="text-center">
+            <a href="/fjb" class="btn btn-default btn-fill btn-landing-forum">Ke halaman FJB</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+</div>
+
+    <footer class="footer footer-black footer-limakilo footer-big">
+    <div class="footer-contacts">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 class="pull-left">Contact Us</h4>
+                    <ul class="footer-socmed pull-right">
+                        <li>
+                            <a class="btn btn-icon btn-fill" href="https://www.facebook.com/limakilo.id" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a class="btn btn-icon btn-fill" href="https://twitter.com/limakilo_id" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a class="btn btn-icon btn-fill" href="https://instagram.com/limakilo.id" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a class="btn btn-icon btn-fill" href="mailto:hi@limakilo.id" target="_blank"><i class="fa fa-envelope-o"></i></a>
+                        </li>
+                        <li>
+                            <a class="btn btn-icon btn-fill" href="tel:+628111811374"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-content container">
+        <div class="row">
+            <div class="col-md-2 text-center col-sm-3 col-xs-12">
+                <a class="footer-navbar navbar-brand pull-left" href="/"><img id="Limakilo" alt="" src="/images/limakilo_logo.png" data-rjs="3"></a>
+            </div>
+            <div class="col-md-9 col-md-offset-1 col-sm-9 col-xs-12">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <div class="links">
+                            <ul class="uppercase-links stacked-links">
+                                <li>
+                                    <h5>Company</h5>
+                                </li>
+                                <li>
+                                    <a href="/about">Tentang Kami</a>
+                                </li>
+                                <li>
+                                    <a href="/buy">Belanja di Limakilo</a>
+                                </li>
+                                <li>
+                                    <a href="/sell">Jualan di Limakilo</a>
+                                </li>
+                                <li>
+                                    <a href="http://blog.limakilo.id" target="_blank">Blog</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <div class="links">
+                            <ul class="uppercase-links stacked-links">
+                                <li>
+                                    <h5>Pages</h5>
+                                </li>
+                                <li>
+                                    <a href="/career">Karir</a>
+                                </li>
+                                <li>
+                                    <a href="/faq">FAQ</a>
+                                </li>
+                                <!-- <li>
+                                    <a href="/testimoni">Testimoni</a>
+                                </li> -->
+                                <!-- <li>
+                                    <a href="/contact">Kontak Kami</a>
+                                </li> -->
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <div class="links">
+                            <ul class="stacked-links">
+                                <li><h5>PT Limakilo Majubersama Petani</h5></li>
+                                <li><b><i class="fa fa-mobile"></i>&nbsp; No Telp : +62 81 11 811 374</b></li>
+                                <li><b><i class="fa fa-envelope-o"></i>&nbsp; Email : hi@limakilo.id</b></li>
+                                <li><i class="fa fa-globe"></i>&nbsp; Alamat : Menara Rajawali, Level 7-1, Jl DR Ide Agung Gde Agung, Kawasan Mega Kuningan, Jakarta Selatan 12950, Indonesia</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <div class="copyright">
+                    <div class="pull-left">
+                        &copy; 2016 Limakilo
+                    </div>
+                    <div class="links pull-right" style="display:none;">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Company Policy
+                                </a>
+                            </li>
+                            |
+                            <li>
+                                <a href="#">
+                                    Terms
+                                </a>
+                            </li>
+                            |
+                            <li>
+                                <a href="#">
+                                    Privacy
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</footer>
+<!-- end footer areas -->
+
+
+
+<nav id="c-menu--slide-right" class="c-menu c-menu--slide-right">
+    <button class="c-menu__close"><span style="float:left;">Keranjang Saya</span> <span style="float:right;"><i class="fa fa-close"></i></span></button>
+    <!-- <ul class="c-menu__items">
+    <li class="c-menu__item"><a href="#" class="c-menu__link">Home</a></li>
+    <li class="c-menu__item"><a href="#" class="c-menu__link">About</a></li>
+
+  </ul> -->
+    <div class="table-responsive">
+        <table class="table table-shopping">
+            
+<tfoot data-cart="empty">
+    <tr>
+        <td colspan="2">
+            <div class="col-md-12 text-center">
+                <small>Keranjang Masih Kosong</small>
+            </div>
+        </td>
+    </tr>
+</tfoot>
+
+        </table>
+    </div>
+</nav>
+<!-- /c-menu slide-right -->
+
+<div id="c-mask" class="c-mask"></div>
+<!-- /c-mask -->
+
+<!-- menus script -->
+<script src="/js/app/menu.js"></script>
+<script>
+    /**
+     * Slide right instantiation and action.
+     */
+    var slideRight = new Menu({
+        wrapper: '.wrapper',
+        type: 'slide-right',
+        menuOpenerClass: '.c-button',
+        maskId: '#c-mask'
+    });
+
+    var slideRightBtn = document.querySelector('#c-button--slide-right');
+
+    slideRightBtn.addEventListener('click', function(e) {
+        e.preventDefault;
+        slideRight.open();
+    });
+</script>
+
+<script src="https://cdn.smooch.io/smooch.min.js"></script>
+
+<script>
+    Smooch.init({
+        appToken: '3mwl1vqzn1fiiy7n3bipyiur7',
+        customText: {
+            headerText: 'Ada yang bisa Kilo bantu?',
+            inputPlaceholder: 'Tuliskan pesan...',
+            sendButtonText: 'Kirim',
+        }
+    });
+</script>
+
+
+</body>
+
+<script src="/js/app/jquery-1.10.2.js" type="text/javascript"></script>
+<script src="/js/app/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
+
+<script src="/vendor/bootstrap3/js/bootstrap.js" type="text/javascript"></script>
+<script src="/vendor/chosen/chosen.jquery.min.js" type="text/javascript"></script>
+
+<!--  Plugins -->
+<script src="/js/app/ct-paper-checkbox.js"></script>
+<script src="/js/app/ct-paper-radio.js"></script>
+<script src="/js/app/bootstrap-select.js"></script>
+<script src="/js/app/bootstrap-datepicker.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-ui-bootstrap/0.5pre/assets/js/jquery-ui-1.10.0.custom.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+
+
+<script src="/js/app/ct-paper.js"></script>
+
+<script src="/vendor/parsleyjs/parsley.min.js" type="text/javascript"></script>
+<script src="/vendor/parsleyjs/i18n/id.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/1.4.5/numeral.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/retina.js/2.1.0/retina.min.js"></script>
+
+<!-- FJB -->
+<script src="/vendor/jquery.uploadPreview.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.1.1/bootstrap-slider.min.js"></script>
+<script src="/js/app/limakilo-development-fjb.js"></script>
+<script>
+
+/*
+** Admin
+*/
+
+var baseurl = window.location.protocol+ "//" + window.location.host;
+var url = baseurl+window.location.pathname;
+
+$(document).ready(function(){
+  $("#c-button--slide-right").popover({
+    animation: true,
+    container: '.navbar-default',
+    template: '<div class="popover cart-popover" role="tooltip"><div class="arrow"></div><h3 class="popover-title"></h3><div class="popover-content"></div></div>',
+    content: function(){
+      return $("#minim-popover").html();
+    },
+    trigger: "hover",
+    html: true,
+    placement: "bottom"
+  }).on('show.bs.popover', function(){
+    setTimeout(function () {
+        $('#c-button--slide-right').popover('hide');
+    }, 3000);
+  });
+  var dataTableObj = {
+    'processing' : true,
+    'serverSide' : true,
+    "order": [[ 0, "desc" ]]
+  };
+  if(url.indexOf("sell") != -1){
+    dataTableObj.ajax = baseurl+"/admin/api/fjb/sell";
+    dataTableObj.columnDefs = [
+      {
+        "targets":-1,
+        "data" : null,
+        "render": function(data,type,row){
+          return "<a href='/admin/fjb/"+data[7]+"/edit' title='Ubah'><i class='fa fa-edit'></i></a>";
+        }
+      }
+    ]
+  }
+  if(url.indexOf("buy") != -1){
+    dataTableObj.ajax = baseurl+"/admin/api/fjb/buy";
+    dataTableObj.columnDefs = [
+      {
+        "targets":-1,
+        "data" : null,
+        "render": function(data,type,row){
+          return "<a href='/admin/fjb/"+data[7]+"/edit' title='Ubah'><i class='fa fa-edit'></i></a>";
+        }
+      }
+    ];
+  }
+
+  /* Order */
+  if(url.indexOf('new') > 28) {
+    dataTableObj.ajax = baseurl+"/admin/api/orders/new";
+    dataTableObj.columnDefs = [
+      {
+        "targets": [0,4], "sortable": false
+      },
+      {
+        "targets": 3,
+        "render": function(data, type, row) {
+          return numeral(data).format('0,000')
+        }
+      },
+      {
+        "targets": 4,
+        "render": function(data, type, row) {
+          return '<span class="label label-primary">'+data+'</span>'
+        }
+      },
+      {
+        "targets": -1, "data": null, "sortable": false,
+        "render": function(data, type, row) {
+          return '<div class="text-right"><a href="/admin/orders/detail/'+data[5]+'" title="Konfirmasi Pesanan"><i class="fa fa-check"></i></a>&nbsp;<a href="/admin/orders/detail/'+data[5]+'/cancel" title="Hapus Pesanan"><i class="fa fa-times"></i></a></div>'
+        }
+      },
+    ]
+  }
+  if(url.indexOf('confirmation') > 28) {
+    dataTableObj.ajax = baseurl+"/admin/api/orders/confirmation";
+    dataTableObj.columnDefs = [
+      {
+        "targets": [0,5],
+        "sortable": false
+      },
+      {
+        "targets": 3, "data": null,
+        "render": function(data, type, row) {
+          return numeral(data[3]).format('0,000')
+        }
+      },
+      {
+        "targets": 4, "data": null,
+        "render": function(data, type, row) {
+          return numeral(data[4]).format('0,000')
+        }
+      },
+      {
+        "targets": 5,
+        "render": function(data, type, row) {
+          return '<span class="label label-info">'+data+'</span>'
+        }
+      },
+      {
+        "targets": -1, "data": null, "sortable": false,
+        "render": function(data, type, row) {
+          return '<a class="text-right" href="/admin/orders/detail/'+data[6]+'" title="Verifikasi Pesanan"><i class="fa fa-check-square-o"></i></a>'
+        }
+      },
+    ]
+  }
+  if(url.indexOf('verification') > 28) {
+    dataTableObj.ajax = baseurl+"/admin/api/orders/verification";
+    dataTableObj.columnDefs = [
+      {
+        "targets": [0,5],
+        "sortable": false
+      },
+      {
+        "targets": 3,
+        "render": function(data, type, row) {
+          return numeral(data).format('0,000')
+        }
+      },
+      {
+        "targets": 4, "data": null,
+        "render": function(data, type, row) {
+          return data[4]
+        }
+      },
+      {
+        "targets": 5,
+        "render": function(data, type, row) {
+          return '<span class="label label-warning">'+data+'</span>'
+        }
+      },
+      {
+        "targets": -1, "data": null, "sortable": false,
+        "render": function(data, type, row) {
+          return '<a class="text-right" href="/admin/orders/detail/'+data[6]+'" title="Kirim Pesanan"><i class="fa fa-send"></i></a>'
+        }
+      },
+    ]
+  }
+  if(url.indexOf('shipment') > 28) {
+    dataTableObj.ajax = baseurl+"/admin/api/orders/shipment";
+    dataTableObj.columnDefs = [
+      {
+        "targets": [0,-1],
+        "sortable": false
+      },
+      {
+        "targets": 3,
+        "render": function(data, type, row) {
+          return numeral(data).format('0,000')
+        }
+      },
+      {
+        "targets": 6,
+        "render": function(data, type, row){
+          return numeral(data).format('0,000')
+        }
+      },
+      {
+        "targets": 7,
+        "render": function(data, type, row) {
+          return '<span class="label label-success">'+data+'</span>'
+        }
+      },
+    ]
+  }
+
+  /* Products */
+  if(url.indexOf('products') != -1) {
+    if(url.indexOf('active') > 28) {
+      dataTableObj.ajax = baseurl+"/admin/api/products/active";
+      dataTableObj.columnDefs = [
+        {
+          "targets": [0,-1], "sortable": false
+        },
+        {
+          "targets": 3,
+          "render": function(data, type, row){
+            return numeral(data).format('0,000')
+          }
+        },
+        {
+          "targets": 5, "data": null,
+          "render": function(data, type, row) {
+            return '<div class="text-right"><a href="/admin/products/'+data[5]+'/edit"><i class="fa fa-edit"></i></a> <a href="/admin/products/'+data[5]+'/'+((data[7]==0)?'active':'deactive')+'" title="Non-Aktifkan"><i class="fa fa-times"></i></a></div>'
+          }
+        }
+      ]
+    } else if (url.indexOf('expired') > 28) {
+      dataTableObj.ajax = baseurl+"/admin/api/products/expired";
+      dataTableObj.columnDefs = [
+        {
+          "targets": [0,-1], "sortable": false
+        },
+        {
+          "targets": 3,
+          "render": function(data, type, row){
+            return numeral(data).format('0,000')
+          }
+        },
+        {
+          "targets": 5, "data": null,
+          "render": function(data, type, row) {
+            return '<div class="text-right"><a href="/admin/products/'+data[5]+'/edit"><i class="fa fa-edit"></i></a> <a href="/admin/products/'+data[5]+'/'+((data[7]==1)?'active':'deactive')+'" title="Aktifkan"><i class="fa fa-check"></i></a></div>'
+          }
+        }
+      ]
+    }
+  }
+
+
+  /* Customer */
+  if(url.indexOf('customers') != -1) {
+    dataTableObj.ajax = baseurl+"/admin/api/customers";
+    dataTableObj.columnDefs = [
+      {
+        "targets": [0,-1],
+        "sortable": false
+      },
+      {
+        "targets": -1,
+        "render": function(data, type, row){
+          return '<div class="text-right"><a href="#" title="Ubah Data Pengguna"><i class="fa fa-edit"></i></a></div>';
+        }
+      }
+    ]
+  }
+
+  if(url.indexOf("admin/farmer") != -1){
+    dataTableObj.ajax = baseurl+"/admin/api/farmer";
+    dataTableObj.columnDefs = [
+      {
+        "targets":-1,
+        "data" : null,
+        "sortable": false,
+        "render": function(data,type,row){
+          return "<a href='/admin/farmer/"+data[5]+"/edit' title='Ubah'><i class='fa fa-edit'></i></a>   <a href='/admin/farmer/"+data[5]+"/"+((data[6]==0)?'activate':'deactivate')+"' title='"+((data[6]==0)?'Aktifkan':'Nonaktifkan')+"'><i class='fa fa-"+((data[6]==0)?'check':'times')+"'></i></a>";
+        }
+      }
+    ]
+  }
+
+  if(url.indexOf("admin/location") != -1){
+    dataTableObj.ajax = baseurl+"/admin/api/location";
+    dataTableObj.columnDefs = [
+      {
+        "targets": 3,
+        "data": null,
+        "render": function(data, type, row){
+          if (data[3]||data[4])
+            return data[3]+" ; "+data[4];
+          else
+            return "";
+        }
+      },
+      {
+        "targets":-1,
+        "data" : null,
+        "sortable": false,
+        "render": function(data,type,row){
+          return "<a href='/admin/location/"+data[5]+"/edit' title='Ubah'><i class='fa fa-edit'></i></a>   <a href='/admin/location/"+data[5]+"/delete' title='Hapus'><i class='fa fa-times'></i></a>";
+        }
+      }
+    ]
+  }
+
+  $("#data-table-render").DataTable(dataTableObj);
+  getMinimumPurchase(false);
+});
+
+if(window.location.pathname.split('/')[1].toLowerCase() == 'admin') {
+    console.log(window.location.pathname.split('/').length)
+    tabs = window.location.pathname.split('/')[2].toLowerCase()
+    if(tabs == 'customers') {
+        $('.accordion-menu li#user').addClass('active');
+    } else {
+        $('.accordion-menu li#'+tabs).addClass('active');
+    }
+}
+if($('.accordion-menu li.active').has('input[type="checkbox"]')) {
+    $('.accordion-menu li.active input').attr("checked", "checked");
+}
+
+/*
+** Cart section
+*/
+var getMinimumPurchase = function(show){
+  $.get('/api/purchase/minimum', function(o){
+    var result = o.data;
+    $("#popover-total-cart").text("Rp. "+numeral(result.total).format("0,000"));
+    if(result.total >= result.minPurchase) {
+      $(".inf__rest-paid").hide();
+    }else{
+      $("#rest-paid").text("Rp. "+numeral((result.minPurchase - result.total)).format("0,000"));
+      $("#progress-paid").css("width",(result.total / result.minPurchase * 100)+"%");
+      $(".inf__rest-paid").show();
+    }
+    if(show){
+      $("#c-button--slide-right").popover('show');
+    }
+  });
+}
+
+var changeCartQty = function(camid, mode, min) {
+    min = typeof(min !== undefined) ? min : 1;
+    $.ajax({
+        method: 'GET',
+        url: '/api/cart/'+camid+'/'+mode,
+    }).done(function(data) {
+        qty = $('#cart-product'+camid+' .product-qty').text();
+        (mode == 'add') ? qty++ : qty-- ;
+        $('#cart-product'+camid+' .product-qty').text(qty);
+        getMinimumPurchase(true);
+        if( $('#checkout-product'+camid).length > 0) {
+            $('#checkout-product'+camid+' .product-qty').text(qty);
+            price = numeral().unformat($('#checkout-product'+camid+' #product-price').text());
+            $('#checkout-product'+camid+' #product-subtotal').text(numeral(price * qty).format('0,000'));
+        }
+        if( $('#checkout-cartinfo').length > 0) {
+            diskon = (data['data'].newDiskon != null) ? data['data'].newDiskon : 0;
+            $('#cartinfo-total').text(numeral(data['data'].newTotal).format('0,000'));
+            $('#total-payment').text(numeral(data['data'].newTotal + 15000 - diskon).format('0,000'));
+        }
+        if($('.card-image').length > 0) {
+            $('#card-image'+camid+" .counter span").text(qty);
+            if(qty > $('#card-image'+camid).attr("data-minVal")) {
+                $('#card-image'+camid+" .card-adder .adder-minus").css('display', 'block');
+            } else {
+                $('#card-image'+camid+" .card-adder .adder-minus").css('display', 'none');
+            }
+        }
+    }).fail(function(xhr, status, error){
+        addProduct(camid, min);
+    });
+}
+
+var addProduct = function(camid, amount) {
+    $.ajax({
+        method: 'post',
+        url: '/api/cart/',
+        data: { id: camid, qty: amount },
+        dataType: 'JSON'
+    }).done(function(data){
+        var index;
+        if($('.card-image').length > 0) {
+            $('#card-image'+camid+" .counter").css('display', 'block');
+            for( i =0; i < data['data'].length; i++) {
+                if(data['data'][i].productId == camid) {
+                    index = i;
+                    $('#card-image'+camid+" .counter span").text(data["data"][i].qty);
+                }
+            }
+        }
+
+        productName = data["data"][index].productName
+        price = data["data"][index].price
+        image = data["data"][index].productImage
+        unit = data['data'][index].unit
+        productId = data["data"][index].productId
+        qty = data["data"][index].qty
+
+        cartItem = '<tr><td><div class="img-container"><img src='+ image +' alt="Bawang Merah"></div></td><td><strong>'+ productName +'</strong><p><span class="price">'+ price +'</span>/'+ unit +'</p><div class="btn-cart-item-group" id="cart-product'+ productId +'"> <a class="btn btn-sm btn-cart-item" onclick="changeCartQty('+ productId +', \'substract\'); return false"> - </a><span class="product-qty">'+ qty +'</span> Kg <a class="btn btn-sm btn-cart-item" onclick="changeCartQty('+ productId +', \'add\'); return false;"> + </a></div></td><td style="vertical-align:top;"><a href="/cart/'+ productId +'/remove"><i class="fa fa-close"></i></a></td></tr>';
+
+        $('.c-menu .table-shopping').append(cartItem);
+
+        total = ($('#total-cart').length > 0) ? parseInt(numeral().unformat($('#total-cart').text())) : 0;
+        total += price * qty;
+        if($('.table-shopping tfoot').attr('data-cart') == 'empty') {
+            $('.table-shopping tfoot').remove();
+            cartFoot = '<tfoot data-cart="exist"><tr style="font-weight:bold;"><td>Total :</td><td style="text-align:right;" colspan="2"><span id="total-cart" class="price">'+numeral(total).format('0,000')+'</span></td></tr><tr><td colspan="2" class="no-border"><div class="col-md-12"><a href="/checkout"><button class="btn btn-primary btn-block btn-lg btn-fill">Checkout <i class="fa fa-chevron-right"></i></button></a></div></td></tr></tfoot>'
+            $('.table-shopping').append(cartFoot);
+        } else {
+            $('#total-cart').text(numeral(total).format('0,000'))
+        }
+
+        $('.cart .badge').text(data['data'].length);
+        getMinimumPurchase(true);
+    }).fail(function(xhr, status, error){
+        console.log(status);
+    });
+}
+
+var updateCardImage = function() {
+    var cart = []
+    for(i = 0; i < cart.length; i++) {
+        $('#card-image'+cart[i].productId+" .counter").css('display', 'block');
+        $('#card-image'+cart[i].productId+" .counter span").text(cart[i].qty);
+        if(cart[i].qty > $('#card-image'+cart[i].productId).attr("data-minVal")) {
+            $('#card-image'+cart[i].productId+" .card-adder .adder-minus").css('display', 'block');
+        } else {
+            $('#card-image'+cart[i].productId+" .card-adder .adder-minus").css('display', 'none');
+        }
+    }
+}
+
+var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+    sURLVariables = sPageURL.split('&'),
+    sParameterName,
+    i;
+
+    for ( i = 0; i < sURLVariables.length; i++ ) {
+        sParameterName = sURLVariables[i].split('=');
+        if(sParameterName[0] == sParam) {
+            return sParameterName[1] === undefined ? false : sParameterName[1];
+        }
+    }
+}
+
+var getProducts = function(keyword, cursor, total, filter, sort, clear) {
+    cursor = (cursor !== undefined && cursor != '') ? cursor : 0;
+    total = (total !== undefined && total != '') ? total : 8;
+    clear = (clear !== undefined && clear != '') ? clear : false;
+    desUrl = '/api/search-product?keyword='+keyword+'&cursor='+cursor+'&total='+total;
+    console.log('Keyword: '+keyword);
+    if(filter !== undefined && filter !== '') {
+        if (filter.split('-').length > 0)
+            desUrl +='&sort='+filter
+        else {
+            sort = (sort !== undefined && sort !== '') ? sort : 'asc';
+            desUrl +='&sort='+filter+'-'+sort;
+        }
+    } else {
+        desUrl +='&sort=price-asc';
+    }
+
+    $.ajax({
+        url: desUrl,
+        type: 'GET'
+    }).done(function(data) {
+        res = data['result']['items'];
+        card = '';
+        if(cursor > 0)
+            $('.search-container .search-more').remove();
+        if(clear){
+            $('.search-show').empty();
+        }
+        for(i=0; i<res.length; i++) {
+            card += '<div class="col-md-3">'
+            card += '<div class="card-image" id="card-image'+res[i].cam_id+'" res[i]-minVal="'+res[i].cam_min_order+'">';
+            card += '<div class="card-thumbnail">';
+            card += '<div class="counter"><span></span></div>';
+            card += '<div class="card-adder">';
+            card += '<button class="adder-icon adder-plus pull-right" onclick="changeCartQty('+res[i].cam_id+', \'add\','+res[i].cam_min_order+')">';
+            card += '<i class="fa fa-plus pull-left" ></i>Tambah';
+            card += '</button>';
+            card += '<button class="adder-icon adder-minus pull-right" onclick="changeCartQty('+res[i].cam_id+', \'substract\','+res[i].cam_min_order+')">';
+            card += '<i class="fa fa-minus"></i>';
+            card += '</button>';
+            card += '</div>';
+            card += '<a href="/product/'+res[i].cam_slug+'">';
+            card += '<img src="'+res[i].cam_image+'" alt="'+res[i].cam_title+'" class="img-rounded img-responsive"/>';
+            card += '</a>';
+            card += '</div>';
+            card += '<a href="/product/'+res[i].cam_slug+'">';
+            card += '<div class="details">';
+            card += '<div class="author">';
+            card += '<div class="text col-md-12">';
+            card += '<span class="name">'+res[i].cam_title+'</span>';
+            card += '<div class="meta"><b>Rp <span class="price">'+res[i].cam_price+'</span>/Kg</b></div>';
+            card += '<div class="discount" style="display:none"><span>Rp <span class="price">30000</span></span></div>';
+            card += '</div>';
+            card += '</div>';
+            card += '</div>';
+            card += '<div class="farmer-bio col-md-12">';
+            card += '<img src="'+res[i].Farmer.fam_image+'" alt="'+res[i].Farmer.fam_name+'" class="img-circle img-no-padding img-responsive"><p>Hasil panen dari '+res[i].Farmer.fam_firstname+'</p>';
+            card += '</div>';
+            card += '</a>';
+            card += '</div>';
+            card += '</div>';
+        }
+        $('.search-show').append(card);
+        cursor++;
+
+        if(cursor < data['result']['totalPage']) {
+            more = '';
+            more += '<div class="row search-more">';
+            more += '<button id="btn-more" data-cursor='+cursor+'  class="col-md-12 btn btn-lg btn-fill btn-primary" style="border-radius: 3px;" onclick="getProducts(getUrlParameter(\'keyword\'), $(this).attr(\'data-cursor\')); return false;">Tampilkan Lebih Banyak</button>';
+            more += '</div>';
+            $('.search-container').append(more);
+        }
+    }).error(function(xhr, status, error){
+        console.log(error)
+    });
+}
+
+$('#search-sort').on('change', function(){
+    getProducts(getUrlParameter('keyword'), '', '', $(this).val(), '', true);
+});
+
+/*
+** Search Section
+*/
+
+path = window.location.pathname.split('/')[1].toLowerCase();
+if(window.location.pathname.split('/')[1].toLowerCase() == 'search') {
+    key = getUrlParameter('keyword');
+    getProducts(key);
+}
+
+$(document).ready(function() {
+    updateCardImage()
+
+    var navListItems = $('ul.setup-panel li a'),
+        allWells = $('.setup-content');
+
+    allWells.hide();
+
+    navListItems.click(function(e)
+    {
+        e.preventDefault();
+        var $target = $($(this).attr('href')),
+            $item = $(this).closest('li');
+
+        if (!$item.hasClass('disabled')) {
+            navListItems.closest('li').removeClass('active');
+            $item.addClass('active');
+            allWells.hide();
+            $target.show();
+        }
+    });
+
+    var login_enable = ""
+
+    /*
+    ** Navbar section
+    */
+
+    var checkWidth = function(){
+        if($(window).width() <= 740){
+            $('#nav-toggle-c').addClass('c-button pull-left');
+            $('.navbar .navbar-header').addClass('pull-left');
+            $('#navigation-example-2').addClass('pull-left').removeClass('.navbar-left');
+        } else {
+            $('#nav-toggle-c').removeClass('c-button pull-left');
+            $('.navbar .navbar-header').removeClass('pull-left');
+            $('#navigation-example-2').removeClass('pull-left').addClass('.navbar-left');
+        }
+    }
+    checkWidth();
+    $(window).resize(checkWidth);
+
+    $(window).scroll(function(){
+        if($(window).scrollTop() > 65){
+            $('#demo-navbar').addClass('scrolled');
+        } else {
+            if($('#demo-navbar').hasClass('scrolled')) {
+                $('#demo-navbar').removeClass('scrolled');
+            }
+        }
+    });
+
+    /*
+    ** Searchbox Section
+    */
+    function productsToObject(arr) {
+        var rv = {};
+        for (var i = 0; i < arr.length; ++i){
+            rv[i] = {
+                'label': arr[i]['cam_title'],
+                'value': arr[i]['cam_slug']
+            }
+        }
+        return rv;
+    }
+
+    $('#search-text').autocomplete({
+        minLength: 3,
+        source: function(request, response){
+            $.ajax({
+                url:'/api/search?keyword='+request.term,
+                dataType: "json",
+                success: function(searchResult){
+                    ob = productsToObject(searchResult['data']['products']);
+                    response(ob);
+                }
+            });
+        },
+        focus: function(event, ui){
+            $('#search-text').val(ui.item.label);
+            return false;
+        },
+        select: function(event, ui){
+            window.location = '/product/'+ui.item.value;
+            $('#search-text').val(ui.item.label);
+            return false;
+        }
+    });
+
+    /*
+    ** Slide Section
+    */
+
+    $('.slider').slick({
+        autoplay: true,
+        autoplayspeed: 1000,
+        mobilefirst: true,
+    });
+
+    $('.products-slider').each(function(key, item){
+      var sliderIdName = 'sliderProducts' + key;
+      this.id = sliderIdName;
+      var sliderId = '#'+ sliderIdName;
+      if($(sliderId).children().length > 4) {
+        $(sliderId).slick({
+          centerMode: true,
+          centerPadding: '60px',
+          slidesToShow: 3,
+          initialSlide: 1,
+          slidesToScroll: 1,
+          variableWidth: true,
+          autoplay: false,
+          prevArrow: $(sliderId+' ~ .blurred-left'),
+          nextArrow: $(sliderId+' ~ .blurred-right'),
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                arrows: true,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 4
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                arrows: true,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 1
+              }
+            }
+          ]
+        })
+      }
+    })
+    /*
+    ** Checkout Section
+    */
+    if($('ul.setup-panel li.active').length){
+        switch($('ul.setup-panel li.active')[0].id){
+            case 'step-1-title':
+                $('#step-1-title').addClass("login-active");
+                $('#step-2-title').addClass("cart-disabled");
+                $('#step-3-title').addClass("address-disabled");
+                $('#step-4-title').addClass("payment-disabled");
+                break;
+            case 'step-2-title':
+                $('#step-1-title').addClass("login-done");
+                $('#step-2-title').addClass("cart-active");
+                $('#step-3-title').addClass("address-disabled");
+                $('#step-4-title').addClass("payment-disabled");
+                break;
+            case 'step-3-title':
+                $('#step-1-title').addClass("login-done");
+                $('#step-2-title').addClass("cart-done");
+                $('#step-3-title').addClass("address-active");
+                $('#step-4-title').addClass("payment-disabled");
+                break;
+            case 'step-4-title':
+                $('#step-1-title').addClass("login-done");
+                $('#step-2-title').addClass("cart-done");
+                $('#step-3-title').addClass("address-done");
+                $('#step-4-title').addClass("payment-active");
+                break;
+            default:
+                ('#step-1-title').addClass("login-active");
+                $('#step-2-title').addClass("cart-disabled");
+                $('#step-3-title').addClass("address-disabled");
+                $('#step-4-title').addClass("payment-disabled");
+        }
+    }
+
+    /*
+    ** Numeral JS
+    ** load a language
+    */
+
+    numeral.language('id', {
+        delimiters: {
+            thousands: '.',
+            decimal: ','
+        },
+        abbreviations: {
+            thousand: 'Rb',
+            million: 'Jt',
+            billion: 'M',
+            trillion: 'T'
+        },
+        currency: {
+            symbol: 'Rp'
+        }
+    });
+
+    numeral.language('id');
+
+    $('.price').each(function(){
+        $(this).text(numeral($(this).text()).format('0,000'));
+    });
+
+    /*
+    ** Order Confirmation Section
+    */
+    var confirmOrder = function(){
+      $('#orderConfirm-form').submit();
+    }
+    $('#confirmModal').on('hidden.bs.modal', confirmOrder);
+
+    $('#orderConfirm-close').click(confirmOrder);
+
+    $('#orderConfirm-home').click(confirmOrder);
+
+
+    $('ul.setup-panel li.active a').trigger('click');
+    $('#step-1-title').addClass("login-active");
+    $('#step-2-title').addClass("cart-disabled");
+    $('#step-3-title').addClass("address-disabled");
+    $('#step-4-title').addClass("payment-disabled");
+
+
+    $('#activate-step-2').on('click', function(e) {
+        $('ul.setup-panel li:eq(1)').removeClass('disabled');
+        $('ul.setup-panel li a[href="#step-2"]').trigger('click');
+        $('ul.setup-panel li a[href="#step-1"]').addClass('disabled');
+        $('#step-1-title').removeClass('login-active');
+        $('#step-1-title').addClass('login-done');
+        $('#step-2-title').removeClass('cart-disabled');
+        $('#step-2-title').addClass('cart-active');
+        $(this).remove();
+    });
+
+    $('#activate-step-3').on('click', function(e) {
+        $('ul.setup-panel li:eq(2)').removeClass('disabled');
+        $('ul.setup-panel li a[href="#step-3"]').trigger('click');
+        $('ul.setup-panel li a[href="#step-2"]').addClass('disabled');
+        $('#step-2-title').removeClass('cart-active');
+        $('#step-2-title').addClass('cart-done');
+        $('#step-3-title').removeClass('address-disabled');
+        $('#step-3-title').addClass('address-active');
+        // $(this).remove();
+    });
+
+    $('#activate-step-4').on('click', function(e) {
+        $('ul.setup-panel li:eq(3)').removeClass('disabled');
+        $('ul.setup-panel li a[href="#step-4"]').trigger('click');
+        $('ul.setup-panel li a[href="#step-3"]').addClass('disabled');
+        $('#step-3-title').removeClass('address-active');
+        $('#step-3-title').addClass('address-done');
+        $('#step-4-title').removeClass('payment-disabled');
+        $('#step-4-title').addClass('payment-active');
+        // $(this).remove();
+    });
+
+    $('#checkout-done').on('click', function(e) {
+        $('#step-4-title').removeClass('payment-disabled');
+        $('#step-4-title').addClass('payment-done');
+        $('#checkout-finish').show();
+        $('#payment-navigation').hide();
+        // $(this).remove();
+    });
+
+    // password pattern validator
+    window.Parsley.addValidator('alphanum', {
+      requirementType: 'regexp',
+      validateString: function(value, requirement) {
+        return requirement.test(value);
+      },
+      messages: {
+        id: 'harus terdiri dari huruf dan angka',
+        en: 'must contain alphabet and number',
+      }
+    });
+});
+
+
+$("form").submit(function() {
+    $(".help-block").remove();
+});
+
+</script>
+
+
+
+<!-- <div id="popup-detail"> -->
+<div class="modal modal-fjb fade" id="popup-detail" tabindex="-1" role="dialog" aria-labelledby="popup-detail">
+  <div class="modal-dialog wrapper-popup modal-lg">
+    <div class="modal-content popup-box-wrapper">
+      <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></a>
+        <div class="modal-body">
+          <div class="row content">
+            <div class="col-md-7">
+              <div class="cover-wrapper-popup">
+                <div class="cover-popup">
+                  <img src="" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div class="text-left">
+                <span class="tags"></span>
+              </div>
+              <div class="author clearfix">
+                <div class="author-img pull-left">
+                  <img src="" alt="author photo">
+                </div>
+                <div class="author-bio pull-left">
+                  <p class="name"></p>
+                  <p class="work"></p>
+                </div>
+                <div class="clearfix"></div>
+                
+                <a class="btn btn-fill btn-block btn-primary btn-popup-login" href="/login?source=fjb">
+                  <p class="notice-box">Login terlebih dahulu untuk mengetahui informasi kontak.</p>
+                </a>
+
+                
+              </div>
+              <hr>
+              <div class="details">
+                <div class="clearfix">
+                  <span class="pull-left text-left">Jenis Komoditas :</span>
+                  <span class="pull-right text-right"><b class="commodity"></b></span>
+                </div>
+                <div class="clearfix">
+                  <span class="pull-left text-left">Ukuran :</span>
+                  <span class="pull-right text-right"><b class="size"></b></span>
+                </div>
+                <div class="clearfix">
+                  <span class="pull-left text-left">Warna :</span>
+                  <span class="pull-right text-right"><b class="color"></b></span>
+                </div>
+                <div class="clearfix">
+                  <span class="pull-left text-left">Kriteria :</span>
+                  <span class="pull-right text-right"><b class="criteria"></b></span>
+                </div>
+                <div class="clearfix">
+                  <span class="pull-left text-left">Grade :</span>
+                  <span class="pull-right text-right"><b class="grade"></b></span>
+                </div>
+                <div class="clearfix">
+                  <span class="pull-left text-left">Harga :</span>
+                  <span class="pull-right text-right"><b class="price"></b></span>
+                </div>
+                <div class="clearfix">
+                  <span class="pull-left text-left availability-name">Ketersediaan :</span>
+                  <span class="pull-right text-right"><b class="availability"></b></span>
+                </div>
+                <div class="clearfix">
+                  <span class="pull-left text-left">Deskripsi :</span>
+                  <span class="pull-right text-right"><b class="description"></b></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="related-post">
+            <hr>
+            <div class="row">
+                <div class="col-md-6 first-recommend">
+                  <div class="fjb-card card-image">
+                    <div class="card-thumbnail">
+                      <div class="thumbnail-background">
+                        <img class="thumbnail-img" src="" alt="forum thumbnail">
+                      </div>
+                      <div class="thumbnail-content">
+                        <span class="tags "></span>
+                        <div class="author clearfix">
+                          <div class="author-img pull-left">
+                            <img class="author-photo" src="" alt="author photo">
+                          </div>
+                          <div class="author-bio pull-left">
+                            <p class="name"></p>
+                            <p class="work"></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="details">
+                      <div class="clearfix">
+                        <span class="pull-left text-left">Jenis Komoditas :</span>
+                        <span class="pull-right text-right"><b class="commodity"></b></span>
+                      </div>
+                      <div class="clearfix">
+                        <span class="pull-left text-left">Harga :</span>
+                        <span class="pull-right text-right"><b class="price">Rp.  - Rp. </b></span>
+                      </div>
+                      <div class="clearfix">
+                        <span class="pull-left text-left availability-name">Ketersediaan :</span>
+                        <span class="pull-right text-right"><b class="availability">kg - kg</b></span>
+                      </div>
+                    </div>
+                    <div class="button-wrapper text-center">
+                      <a href="" data-id="" class="changepop btn btn-primary btn-fill btn-sm">
+                        Lihat Selengkapnya
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 second-recommend">
+                  <div class="fjb-card card-image">
+                    <div class="card-thumbnail">
+                      <div class="thumbnail-background">
+                        <img class="thumbnail-img" src="" alt="forum thumbnail">
+                      </div>
+                      <div class="thumbnail-content">
+                        <span class="tags "></span>
+                        <div class="author clearfix">
+                          <div class="author-img pull-left">
+                            <img class="author-photo" src="" alt="author photo">
+                          </div>
+                          <div class="author-bio pull-left">
+                            <p class="name"></p>
+                            <p class="work"></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="details">
+                      <div class="clearfix">
+                        <span class="pull-left text-left">Jenis Komoditas :</span>
+                        <span class="pull-right text-right"><b class="commodity"></b></span>
+                      </div>
+                      <div class="clearfix">
+                        <span class="pull-left text-left">Harga :</span>
+                        <span class="pull-right text-right"><b class="price">Rp.  - Rp. </b></span>
+                      </div>
+                      <div class="clearfix">
+                        <span class="pull-left text-left availability-name">Ketersediaan :</span>
+                        <span class="pull-right text-right"><b class="availability">kg - kg</b></span>
+                      </div>
+                    </div>
+                    <div class="button-wrapper text-center">
+                      <a href="" data-id="" class="changepop btn btn-primary btn-fill btn-sm">
+                        Lihat Selengkapnya
+                      </a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+</html>
